@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.forebear.treschattingapp.Activity_Login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_margin="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:text="New Registration "
+            android:textColor="@color/blue"
+            android:textSize="15dp"
+            android:fontFamily="@font/lato_regular" />
+
+        <ImageView
+            android:id="@+id/user_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="35dp"
+            android:elevation="15dp"
+            android:src="@drawable/usericon"
+            android:fitsSystemWindows="true" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:textColorHint="@color/blue">
+
+            <EditText
+                android:id="@+id/login_username"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:fontFamily="@font/lato_regular" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:textColorHint="@color/blue">
+
+            <EditText
+                android:id="@+id/login_number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:hint="@string/mobile"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:fontFamily="@font/lato_regular" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/login_genrate_OTP"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/blue"
+            android:elevation="10dp"
+            android:text="Generate OTP"
+            android:textColor="@color/White"
+            android:textSize="15dp"
+            android:fontFamily="@font/lato_regular" />
+
+        <TextView
+            android:id="@+id/allready_registered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:text="Already Registered ? "
+            android:textColor="@color/blue"
+            android:textSize="15dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_regular" />
+    </LinearLayout>
+
+
+</RelativeLayout>

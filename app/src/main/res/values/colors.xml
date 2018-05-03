@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="White">#e3e3e3</color>
+    <color name="blue">#00779c</color>
+    <color name="gray">#8b98a3</color>
+    <color name="send">#624d0e</color>
+    <color name="recive">#e3e3e3</color>
+
+    <color name="green">#008000</color>
+    <color name="safe_mode_text">#80ffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+
+</resources>

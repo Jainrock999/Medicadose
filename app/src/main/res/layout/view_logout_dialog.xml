@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android.support.design="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="@drawable/dialog_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/White"
+            android:gravity="center"
+            android:text="Are You Sure, You Want to Logout ?"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/lato_regular" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/logout_dialog"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/white_button"
+                android:elevation="10dp"
+                android:text="Logout"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:fontFamily="@font/lato_regular" />
+
+            <Button
+                android:id="@+id/cancel_dialog"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/white_button"
+                android:elevation="10dp"
+                android:text="Cancel"
+                android:textColor="@color/blue"
+                android:textSize="15dp"
+                android:fontFamily="@font/lato_regular" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

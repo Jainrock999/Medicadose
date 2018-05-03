@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "886983701419",
+    "firebase_url": "https://medicadose-a345e.firebaseio.com",
+    "project_id": "medicadose-a345e",
+    "storage_bucket": "medicadose-a345e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886983701419:android:7970cdbaa5e0ddd9",
+        "android_client_info": {
+          "package_name": "com.example.forebear.treschattingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886983701419-5p777tj351m6co1vetvjr7k1399qu1n6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.forebear.treschattingapp",
+            "certificate_hash": "7411527e37ca64f8ae2822ff2936689da477394b"
+          }
+        },
+        {
+          "client_id": "886983701419-2pt32vbiqjsk101n0ql6e9583rh17r8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChbzOWbbMbaFm0v3pXH_h7jZaSUGBuxcM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886983701419-2pt32vbiqjsk101n0ql6e9583rh17r8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

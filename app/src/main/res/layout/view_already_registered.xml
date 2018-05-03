@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android.support.design="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/dialog_background">
+
+        <RelativeLayout
+            android:id="@+id/mobile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/White"
+                android:text=" Enter Mobile Number"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/lato_regular" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="20dp"
+                android:hint="@string/mobile"
+                android:textColorHint="@color/White">
+
+                <EditText
+                    android:id="@+id/loginMobileNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="10dp"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:textColor="@color/White"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/lato_regular" />
+            </android.support.design.widget.TextInputLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_alignParentBottom="true">
+
+
+                <Button
+                    android:id="@+id/loginSendOTP"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/white_button"
+                    android:elevation="10dp"
+                    android:text="Send OTP"
+                    android:textColor="@color/blue"
+                    android:textSize="15dp"
+                    android:fontFamily="@font/lato_regular" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/otp_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/White"
+                android:text=" Please Enter OTP"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/lato_regular" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="20dp"
+                android:hint="@string/otp"
+                android:textColorHint="@color/White">
+
+                <EditText
+                    android:id="@+id/loginotp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:elevation="10dp"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:textColor="@color/White"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/lato_regular" />
+            </android.support.design.widget.TextInputLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_alignParentBottom="true">
+
+
+                <Button
+                    android:id="@+id/ok_button"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/white_button"
+                    android:elevation="10dp"
+                    android:text="OK"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/lato_regular" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Medicadose</string>
+    <string name="splash_message">Welcome To Medicadose</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="name">Full Name</string>
+    <string name="otp">OTP</string>
+</resources>
